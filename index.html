@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="shape" style="height: 150px; width: 150px; background-color: rgba(183, 222, 255, .2); border-radius: 100%; position: absolute; bottom: 3em; left: -4em; backdrop-filter: blur(15px); border: none; outline: none;"></div>
+        <div class="container">
+            <div class="search-box">
+                <input type="text" placeholder="Enter City" id="city">
+                <button id="search-btn">Search</button>
+            </div>
+            <div id="result"></div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+    <script src="key.js"></script>
+</body>
+</html>
