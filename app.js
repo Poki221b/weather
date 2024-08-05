@@ -17,14 +17,7 @@ let getWeather = () => {
             // valid city name
             .then((data) => {
                 // console.log(data);
-                // console.log(data.weather[0].icon);
-                // console.log(data.weather[0].main);
-                // console.log(data.weather[0].description);
-                // console.log(data.name);
-                // console.log(data.main.temp_min);
-                // console.log(data.main.temp_max);
-                // console.log(data.main.feels_like);
-                // console.log(data.wind.speed);
+                
                 result.innerHTML = `<h2>${data.name}</h2>
                 <h4 class='weather'>${data.weather[0].main}</h4>
                 <h4 class="desc">${data.weather[0].description}<h4>
